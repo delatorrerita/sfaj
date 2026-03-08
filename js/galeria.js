@@ -1,15 +1,12 @@
 const fotos = [
-  { id: 1, archivo: 'fachada.jpg', descripcion: 'Fachada' },
-  { id: 2, archivo: 'equipo.jpg', descripcion: 'Nuestro Equipo' },
-  { id: 3, archivo: 'interiores1.jpg', descripcion: 'Interiores' },
-  { id: 4, archivo: 'interiores2.jpg', descripcion: 'Interiores' },
-  { id: 5, archivo: 'interiores3.jpg', descripcion: 'Interiores' },
-  { id: 6, archivo: 'jardines.jpg', descripcion: 'Jardines' },
-  { id: 7, archivo: 'velatorio1.jpg', descripcion: 'Velatorio' },
-  { id: 8, archivo: 'velatorio2.jpg', descripcion: 'Velatorio' },
-  { id: 9, archivo: 'saladescanso.jpg', descripcion: 'Sala de Descanso' },
-  { id: 10, archivo: 'habitaciones.jpg', descripcion: 'Habitaciones' },
-  { id: 11, archivo: 'oficinas.jpg', descripcion: 'Oficinas' }
+  {id:1,  archivo: 'fachada.jpg', descripcion: 'Fachada'}, 
+  {id:2,  archivo: 'equipo.jpg', descripcion: 'Nuestro Equipo'}, 
+  {id:3,  archivo: 'pasillos.jpg', descripcion: 'Interiores'}, 
+  {id:4,  archivo: 'jardines.jpg', descripcion: 'Jardines'}, 
+  {id:5,  archivo: 'capillas.jpg', descripcion: 'Capillas de Velación'}, 
+  {id:6,  archivo: 'oficinas.jpg', descripcion: 'Oficinas'}, 
+  {id:7,  archivo: 'servicios.jpg', descripcion: 'Servicios'}, 
+  {id:8,  archivo: 'ataudes.jpg', descripcion: 'Variedad de ataúdes'},  
 ];
 
 // --- PARTE 1: GENERAR EL MOSAICO ---
@@ -67,4 +64,5 @@ document.addEventListener('keydown', (e) => {
     if (e.key === "ArrowLeft") cambiarFoto(-1);
     if (e.key === "Escape") cerrarLightbox();
   }
+
 });
