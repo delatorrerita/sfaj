@@ -42,6 +42,14 @@ p {
   border-color: var(--primary-color);
 }
 
+.btn-info {
+  color: white;
+}
+
+.btn-info:hover {
+  background-color: #006b6f;
+  color: white;  
+}
 .btn-outline-primary {
   border-color: var(--primary-color);
   color: var(--primary-color);
