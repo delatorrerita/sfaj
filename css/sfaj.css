@@ -93,6 +93,14 @@ p {
 
 .hero-section h1 {
   color: #2c3e50;
+
+  font-size: 1.8em;
+  font-style: oblique;
+}
+
+.mayusc {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .lema {
